@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api';
-const API_URL = 'hydroshield-server.vercel.app/api';
+const API_URL = 'https://hydroshield-server.vercel.app//api';
 
 export const api = {
   login: async (email: string, password: string) => {
